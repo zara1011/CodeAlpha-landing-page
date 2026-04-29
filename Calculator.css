@@ -1,0 +1,22 @@
+/* This centers the calculator and makes the background black */
+body {
+  background-color: #121212; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* This creates the 4-column grid */
+.calculator {
+  background-color: #000;
+  padding: 20px;
+  border-radius: 15px;
+  width: 320px;
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+  gap: 10px; /* Space between buttons */
